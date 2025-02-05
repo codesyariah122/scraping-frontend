@@ -67,7 +67,7 @@ export default function Home() {
       <div className="w-full max-w-lg mb-6">
         <input
           type="text"
-          placeholder="Masukkan CSS Selector"
+          placeholder="Masukkan CSS Selector (example: div.product-card)"
           className="w-full p-3 text-gray-900 bg-white border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
           value={selector}
           onChange={(e) => setSelector(e.target.value)}
